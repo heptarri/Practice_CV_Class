@@ -9,6 +9,10 @@ target("chapt2")
     add_packages("opencv")
     set_rundir("$(projectdir)")
 
+target("chapt3")
+    add_files("src/chapt3/*.cpp")
+    add_packages("opencv")
+    set_rundir("$(projectdir)")
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
 --
